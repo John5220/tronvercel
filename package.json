@@ -1,0 +1,23 @@
+{
+  "name": "trxapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongodb": "^4.8.1",
+    "tronweb": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vercel/node": "^2.5.8"
+  }
+}
